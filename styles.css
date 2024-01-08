@@ -1,0 +1,415 @@
+.container h4,
+h3 {
+  text-align: center;
+  
+}
+
+.container h3{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.container {
+  background-color: #d4cfcf;
+  height: auto;
+  max-width: 1280px;
+  margin: 20px auto;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.outer {
+  margin: 30px;
+}
+
+.card {
+  width: calc(25% - 30px);
+  background-color: black;
+  height: auto;
+  margin: 15px;
+  float: left;
+}
+
+.min {
+  padding: 2px 16px;
+  color: black;
+  background-color: white;
+  position: relative;
+  margin-top: 228px;
+  height: 180px;
+}
+
+.min h4 {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+/* container 2 */
+
+.container2 h4,
+h3 {
+  text-align: center;
+  padding: auto 30px;
+}
+
+.container2 h3{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.container2 {
+  background-color: #d4cfcf;
+  height: auto;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.min2 {
+  padding: 2px 16px;
+  color: black;
+  background-color: white;
+  position: relative;
+  margin-top: 234px;
+  height: 180px;
+}
+.min2 h4 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card2 {
+  width: calc(33.33% - 30px);
+  background-color: black;
+  height: auto;
+  margin: 15px;
+  float: left;
+  overflow: hidden;
+}
+
+/* container 3 */
+
+.container3 {
+  background-color: #d4cfcf;
+  height: auto;
+  max-width: 1200px;
+  margin: 15px auto;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+
+.second-div {
+  display: flex;
+  margin: 13px 5px;
+  height: auto;
+}
+
+.left-div {
+  width: 60%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+.col1 {
+  width: 50%;
+  float: left;
+  background-color: black;
+}
+.col2 {
+  width: 50%;
+  background-color: rgb(89, 90, 91);
+  margin-left: 12px;
+}
+
+.t {
+  font-size: 60px;
+  word-wrap: break-word;
+  color: white;
+  padding: 10px;
+}
+
+.t2 {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  width: 110px;
+  margin: 20px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.t3 {
+  color: white;
+  background-color: black;
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.right-div {
+  width: 40%;
+  display: flex;
+  margin-left: 12px;
+  flex-direction: column;
+}
+
+.row1 {
+  background-color: white;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.row2 {
+  background-color: white;
+  height: auto;
+}
+
+.r1 {
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.r2 {
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+  word-wrap: break-word;
+}
+
+.r3 {
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+  word-wrap: break-word;
+}
+
+/* container4 */
+
+.container4 {
+  background-color: #d4cfcf;
+  height: auto;
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 40px 40px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  margin: 10px auto;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.left {
+  background-color: rgb(32, 31, 31);
+  float: left;
+  width: 30%;
+  height: auto;
+}
+
+.right {
+  background-color: black;
+  width: 70%;
+  float: left;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.rs1 {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.rs2 {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.rs3 {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.main2 {
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.left2 {
+  background-color: white;
+  float: left;
+  height: 280px;
+  margin: 5px 5px 5px 0;
+  width: 50%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.right2 {
+  background-color: white;
+  float: left;
+  margin: 5px 0 5px 5px;
+  width: 50%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.s1 {
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  font-size: 28px;
+}
+
+.s2 {
+  color: black;
+  font-weight: 500;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.s3 {
+  color: black;
+  font-weight: 500;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /* container 1 */
+  .card {
+    width: calc(50% - 30px);
+  }
+
+  .container {
+    height: auto;
+  }
+
+  /* container 3 */
+
+  .second-div {
+    flex-direction: column;
+    height: auto;
+  }
+  .left-div {
+    width: 100%;
+    height: auto;
+  }
+  .right-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 12px 0;
+    height: auto;
+  }
+
+  .row1,
+  .row2 {
+    width: 50%;
+    height: auto;
+  }
+  .row1 {
+    margin-right: 10px;
+    margin-bottom: 0%;
+  }
+
+  .col1 .t{
+    font-size: 45px;
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+  /* container 1 */
+  .card {
+    width: calc(50% - 30px);
+    height: auto;
+  }
+
+  /* container 2 */
+
+  .card2 {
+    width: calc(100% - 30px);
+  }
+  .container2 {
+    padding: 20px 0;
+    height: auto;
+  }
+
+  /* container 3 */
+
+  .left-div,
+  .right-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col1,
+  .col2 {
+    width: 100%;
+    margin: 10px;
+    padding: 0%;
+  }
+
+  .row1,
+  .row2 {
+    width: 100%;
+    margin: 10px;
+    padding: 0%;
+  }
+
+  /* container 4 */
+
+  .main,
+  .main2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+  .left {
+    height: 200px;
+  }
+  .left2,
+  .right2 {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
